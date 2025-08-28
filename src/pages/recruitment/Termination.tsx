@@ -135,7 +135,7 @@ const Termination: React.FC = () => {
           <h3 className="font-bold text-lg mb-4">Candidate Details</h3>
 
           {!selectedCandidate ? (
-            <p className="text-gray-500">👈 Please select a candidate</p>
+            <p className="text-gray-500">👈 Please select a Employee</p>
           ) : (
             <>
               {/* Tabs */}

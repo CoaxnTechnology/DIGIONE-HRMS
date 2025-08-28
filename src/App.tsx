@@ -17,6 +17,9 @@ import PayrollSetup from "./pages/PayRoll/Payrollsetup";
 import Cpf_Levy from "./pages/PayRoll/Cpf_Levy";
 import Booking from "./pages/Booking/Booking";
 import MailBox from "./pages/MailBox";
+import Employees from "./pages/Employees/Employees";
+import AddEmployeeForm from "./pages/Employees/AddEmployeeForm";
+import EditEmployeeForm from "./pages/Employees/EditEmployeeForm";
 
 const queryClient = new QueryClient();
 
@@ -65,6 +68,30 @@ function App() {
               element={
                 <Layout>
                   <Course />
+                </Layout>
+              }
+            />
+            <Route
+              path="/employees"
+              element={
+                <Layout>
+                  <Employees />
+                </Layout>
+              }
+            />
+            <Route
+              path="employees/add"
+              element={
+                <Layout>
+                  <AddEmployeeForm  />
+                </Layout>
+              }
+            />
+            <Route
+              path="employees/update/:id"
+              element={
+                <Layout>
+                  <EditEmployeeForm  />
                 </Layout>
               }
             />

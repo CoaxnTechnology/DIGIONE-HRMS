@@ -64,6 +64,7 @@ const navigationItems = [
   },
 
   { title: "Courses", url: "/courses", icon: GraduationCap },
+  {title:"Employees",url:"/employees",icon:Users},
   { title: "Template Master", url: "/templates", icon: FileText },
 
   {
