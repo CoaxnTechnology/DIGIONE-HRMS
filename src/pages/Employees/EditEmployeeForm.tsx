@@ -78,7 +78,7 @@ const EditEmployeeForm: React.FC = () => {
       {/* Sticky Header for Mobile */}
       <div className="bg-purple-700 text-white px-4 py-3 rounded-md mb-6 sticky top-0 z-10 shadow-md">
         <h2 className="text-lg md:text-xl font-semibold text-center md:text-left">
-          Add New Employee
+         Update Employee
         </h2>
       </div>
 
