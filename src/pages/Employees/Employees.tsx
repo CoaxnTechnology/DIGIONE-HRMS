@@ -149,7 +149,7 @@ export default function Employees() {
                     <div className="flex flex-col sm:flex-row gap-2">
                       <button
                         onClick={() => navigate("/employees/update/:id")}
-                        className="bg-purple-600 hover:bg-purple-700 text-white text-[10px] md:text-xs lg:text-sm px-2 py-1 md:px-3 md:py-2 rounded"
+                        className="bg-blue-600 hover:bg-blue-700 text-white text-[10px] md:text-xs lg:text-sm px-2 py-1 md:px-3 md:py-2 rounded"
                       >
                         View / Edit
                       </button>
